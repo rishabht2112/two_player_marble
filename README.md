@@ -1,16 +1,11 @@
-# assignment
+Two player marble game
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Board Layout:
+  • The game board is a 4x4 grid of cells.
+  • The board is conceptually divided into two areas: an inner and an outer region.
+2. Game Flow:
+  • The game is played between two players, each with a set of marbles.
+  • Players take turns placing their marbles on an empty cell of their choice within the grid.
+  • On each turn, every marble on the board (both players') moves one cell counterclockwise.
+3. Objective:
+  • The first player to align four of their marbles consecutively—either horizontally, vertically, or diagonally—wins the game.
